@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./framework
+        working-directory: .
 
     steps:
     - uses: actions/checkout@v4
