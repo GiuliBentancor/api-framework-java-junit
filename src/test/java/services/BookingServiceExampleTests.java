@@ -47,14 +47,14 @@ public class BookingServiceExampleTests {
     }
 
     @Test
-    public void testGetBookingById() {
+    public void getBookingById() {
         ResponseContainer<BookingModel> response = service.getBookingById(1L, null);
         Assertions.assertEquals(200, response.getStatus());
         Assertions.assertNotNull(response.getData());
     }
 
     @Test
-    public void testGetBookingsList() {
+    public void getBookingsList() {
         ResponseContainer<List<BookingModel>> response = service.getBookings(null);
         Assertions.assertEquals(200, response.getStatus());
         Assertions.assertTrue(response.getData().size() > 0);
