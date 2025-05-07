@@ -283,7 +283,7 @@ public void setup() {
 
 This repository utilizes GitHub Actions for continuous integration and delivery (CI/CD). Our pipeline is configured to run all tests on each Pull Request or Merge to the main branch.
 
-Check the [Actions](https://github.com/damianpereira86/api-framework-ts-mocha/actions) tab to see passed and failed pipelines.
+Check the [Actions](https://github.com/GiuliBentancor/api-framework-java-junit/actions) tab to see passed and failed pipelines.
 
 ![Pipeline](./images/cicd.jpg)
 
