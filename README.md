@@ -284,8 +284,7 @@ public void setup() {
 This repository utilizes GitHub Actions for continuous integration and delivery (CI/CD). Our pipeline is configured to run all tests on each Pull Request or Merge to the main branch.
 
 Check the [Actions](https://github.com/GiuliBentancor/api-framework-java-junit/actions) tab to see passed and failed pipelines.
-
-![Pipeline](./images/cicd.jpg)
+![image](https://github.com/user-attachments/assets/fd3b77b9-1b12-4377-b123-6490df907b74)
 
 Ensure that you configure any necessary environment variables and secrets. These can be managed in the repository’s **Settings** under **Secrets and variables**.
 
