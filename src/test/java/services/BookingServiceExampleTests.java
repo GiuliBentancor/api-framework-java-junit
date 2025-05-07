@@ -57,7 +57,7 @@ public class BookingServiceExampleTests {
     public void testGetBookingsList() {
         ResponseContainer<List<BookingModel>> response = service.getBookings(null);
         Assertions.assertEquals(200, response.getStatus());
-        Assertions.assertEquals(response.getData().size() > 0, true);
+        Assertions.assertTrue(response.getData().size() > 0);
     }
 
     @Test
