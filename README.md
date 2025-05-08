@@ -29,7 +29,7 @@ Before starting with the setup, fork the repository and ensure you have a local 
 3. Navigate to the project directory on your terminal. This is where the `src` folder is located.
 
     ```bash
-    cd framework
+    cd api-framework-java-junit
     ```
 
 4. Install the necessary dependencies by running the following command in the root folder:
