@@ -48,8 +48,8 @@ public class BookingRetrievalTest extends BaseBookingServiceTest {
 
     @Test
     @DisplayName("Get booking successful less than 2000ms")
-    void getBookingSuccessfulLessThan1000ms() {
-        ResponseContainer<BookingModel> response = service.getBookingById(100L, null);
+    void getBookingSuccessfulLessThan2000ms() {
+        ResponseContainer<BookingModel> response = service.getBookingById(1L, null);
         Assertions.assertEquals(200, response.getStatus());
         Assertions.assertTrue(response.getResponseTime() < 2000);
     }
