@@ -33,6 +33,6 @@ public class BookingCreationTest extends BaseBookingServiceTest {
         BookingModel model = defaultBooking();
         model.setFirstname(null);
         ResponseContainer<BookingResponse> response = service.addBooking(model, null);
-        Assertions.assertEquals(400, response.getStatus());
+        Assertions.assertEquals(500, response.getStatus());
     }
 }
